@@ -16,19 +16,19 @@ ClosingState::~ClosingState() {
 	// TODO Auto-generated destructor stub
 }
 
-ClosingState::entry()
+void ClosingState::entry()
 {
 	// TODO
 	// motorDown = 1
 }
 
-ClosingState::exit()
+void ClosingState::exit()
 {
 	// TODO
 	// motorDown = 0
 }
 
-ClosingState::update()
+void ClosingState::update()
 {
 	// TODO
 	// increment counter
