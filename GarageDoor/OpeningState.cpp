@@ -15,3 +15,23 @@ OpeningState::OpeningState() {
 OpeningState::~OpeningState() {
 	// TODO Auto-generated destructor stub
 }
+
+OpeningState::entry()
+{
+	// TODO
+	// motorUp = 1
+}
+
+OpeningState::exit()
+{
+	// TODO
+	// motorUp = 0
+}
+
+OpeningState::entry()
+{
+	// TODO
+	// decrement counter
+	// if counter == 0 then send fullOpen signal 
+	//			OR let someone else track counter (controller?)
+}
