@@ -16,19 +16,19 @@ OpeningState::~OpeningState() {
 	// TODO Auto-generated destructor stub
 }
 
-OpeningState::entry()
+void OpeningState::entry()
 {
 	// TODO
 	// motorUp = 1
 }
 
-OpeningState::exit()
+void OpeningState::exit()
 {
 	// TODO
 	// motorUp = 0
 }
 
-OpeningState::entry()
+void OpeningState::update()
 {
 	// TODO
 	// decrement counter
