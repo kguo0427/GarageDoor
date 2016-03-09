@@ -15,3 +15,21 @@ Sensors::Sensors() {
 Sensors::~Sensors() {
 	// TODO Auto-generated destructor stub
 }
+
+void Sensors::ButtonPress()
+{
+	// TODO
+	// raise ButtonPressInterrupt
+}
+
+void Sensors::MotorOvercurrent()
+{
+	// TODO
+	// raise MotorOvercurrentInterrupt
+}
+
+void Sensors::IRBeamInterrupt()
+{
+	// TODO
+	// raise InfraredBeamInterrupt
+}
