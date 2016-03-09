@@ -8,12 +8,13 @@
 #ifndef SENSORS_H_
 #define SENSORS_H_
 // TODO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-[ event_source(native) ]
 class Sensors {
 public:
 	Sensors();
 	virtual ~Sensors();
-	__event void ButtonPress();
+	void ButtonPress();
+	void MotorOvercurrent();
+	void IRBeamInterrupt();
 };
 
 #endif /* SENSORS_H_ */
